@@ -13,7 +13,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		// TODO Auto-generated method stub
 		//super.configure(http); 삭제하면 기존시큐리티가 가지고있는 기능 비활성화 
-		
+		//
 		http.csrf().disable();
 		http.authorizeRequests()
 			.antMatchers("/","/user/**","/image/**","/subscribe/**","/comment/**").authenticated()
