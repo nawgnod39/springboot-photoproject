@@ -1,4 +1,4 @@
-package com.cos.photogramstart;
+/*package com.cos.photogramstart;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -40,4 +40,4 @@ public class ViewControllerTest {
 	public String updatePage() {
 		return "user/update";
 	}
-}
+}*/
