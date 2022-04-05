@@ -15,7 +15,8 @@ import lombok.RequiredArgsConstructor;
 public class UserService {
 
 	private final UserRepository userRepository;
-	private final BCryptPasswordEncoder bCryptPasswordEncoder;  
+	private final BCryptPasswordEncoder bCryptPasswordEncoder;
+
 	@Transactional
 	public User 회원수정(int id, User user) {
 		// 1. 영속화
